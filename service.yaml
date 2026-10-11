@@ -1,12 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-name: week7-flask-service
+  name: week7-flask-service
 spec:
-type: NodePort
+  type: NodePort
 selector:
 app: week7-flask
 ports:
 - port: 5000
 targetPort: 5000
 nodePort: 30081
+
