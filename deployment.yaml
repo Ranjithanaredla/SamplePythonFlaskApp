@@ -15,5 +15,6 @@ spec:
 containers:
 - name: week7-flask
 image: ranjitha28/devdoc:latest
+imagePullPolicy: Always
 ports:
 - containerPort: 5000
