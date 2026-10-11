@@ -2,7 +2,6 @@
 pipeline {
 agent any
 
-```
 environment {
     IMAGE_NAME = 'ranjitha28/devdoc'
     IMAGE_TAG = 'latest'
